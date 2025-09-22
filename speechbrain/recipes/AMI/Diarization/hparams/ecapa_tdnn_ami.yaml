@@ -3,6 +3,7 @@
 # Embeddings: Deep embedding
 # Clustering Technique: Spectral clustering
 # Authors: Nauman Dawalatabad 2020
+#          Nikhil Raghav 2025 (updated the script to be compatible for MK-SGC-SC)
 # #################################################
 
 seed: 1234
@@ -12,14 +13,13 @@ __set_seed: !apply:torch.manual_seed [!ref <seed>]
 # Download data from: http://groups.inf.ed.ac.uk/ami/download/
 #data_folder: /home/dataset/amicorpus/ # e.g., /path/to/amicorpus/
 
-#data_folder: /home/dataset/amicorpus/
 data_folder: ./datasets/amicorpus/
 
 
 # Download manual annotations from: http://groups.inf.ed.ac.uk/ami/download/
 #manual_annot_folder: /home/nikhil/Documents/speechbrain/recipes/AMI/ami_public_manual_1.6.2/ # e.g., /path/to/ami_public_manual_1.6.2/
 manual_annot_folder: ./speechbrain/recipes/AMI/ami_public_manual_1.6.2/
-# by default /home/nikhil/Documents/speechbrain/recipes/AMI/ami_public_manual_1.6.2/
+
 output_folder: results/ami/ecapa/
 save_folder: !ref <output_folder>/save
 skip_prep: False

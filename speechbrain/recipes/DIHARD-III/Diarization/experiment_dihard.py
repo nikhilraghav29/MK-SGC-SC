@@ -364,7 +364,7 @@ def diarize_dataset(full_meta, split_type, n_lambdas, pval, n_neighbors=10):
                 pval,
                 params["affinity"],
                 n_neighbors,
-                method="ASC"
+                method="MK-SGC-SC"
             )
 
         if params["backend"] == "DSC":

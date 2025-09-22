@@ -415,7 +415,7 @@ def diarize_dataset(full_meta, split_type, n_lambdas, pval, n_neighbors=10):
                 pval,
                 params["affinity"],
                 n_neighbors,
-                method="ASC"
+                method="MK-SGC-SC"
             )
 
         # Can used for AHC later. Likewise one can add different backends here.

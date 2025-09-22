@@ -4,20 +4,21 @@
 # Clustering Technique: Spectral clustering
 # Authors: Nauman Dawalatabad 2020
 #          Md Sahidullah 2024 Commented the parameters for embedding normalization
+#          Nikhil Raghav 2025 (updated the script to be compatible for MK-SGC-SC)
 # #################################################
 
 seed: 1234
 __set_seed: !apply:torch.manual_seed [!ref <seed>]
 
 # Directories: Replace !PLACEHOLDER with full path of the directory.
-# Download data from: http://groups.inf.ed.ac.uk/ami/download/
+
 dataset_name: DIHARDIII
-#data_folder_dev: /home/nikhil/Documents/dataset/DIHARDIII/third_dihard_challenge_dev_LDC2022S12/third_dihard_challenge_dev/
+
 data_folder_dev: ./dataset/DIHARDIII/third_dihard_challenge_dev_LDC2022S12/third_dihard_challenge_dev/
-#data_folder_eval: /home/nikhil/Documents/dataset/DIHARDIII/third_dihard_challenge_eval_LDC2022S14/third_dihard_challenge_eval/
+
 data_folder_eval: ./dataset/DIHARDIII/third_dihard_challenge_eval_LDC2022S14/third_dihard_challenge_eval/
 # Download manual annotations from: http://groups.inf.ed.ac.uk/ami/download/
-#manual_annot_folder: /home/nikhil/Documents/speechbrain/recipes/AMI/ami_public_manual_1.6.2/
+
 manual_annot_folder: ./speechbrain/recipes/AMI/ami_public_manual_1.6.2/
 
 output_folder: results/dihard3/ecapa/

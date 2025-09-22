@@ -16,6 +16,7 @@ Citation: This recipe is based on the following paper,
 
 Authors
  * Nauman Dawalatabad 2020
+ * Nikhil Raghav 2025
 
 
 """
@@ -345,7 +346,7 @@ def diarize_dataset(full_meta, split_type, n_lambdas, pval, n_neighbors=10):
                 pval,
                 params["affinity"],
                 n_neighbors,
-                method="ASC"
+                method="MK-SGC-SC"
             )
 
 

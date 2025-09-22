@@ -2680,7 +2680,7 @@ def do_spec_clustering(
             K = clust_obj.build_K(diary_obj.stat1)[0].numpy()
             clust_obj.labels_ = clust_obj.lswmkc_single_shot(K, c_neighbors = 15,k_oracle = None, sparsify_fused=False, lap_kind_try=("unnorm"))
         
-        elif method == "NEW7":
+        elif method == "MK-SGC-SC":
             K = clust_obj.build_K(diary_obj.stat1, cosine=True, polynomial=True, exponential=True, arccosine0=True, arccosine1=True)
             clust_obj.labels_ = clust_obj.lswmkc_single_shot(K, c_neighbors=15, k_oracle=None, per_kernel_knn=True, sym_Laplacian=False)
         

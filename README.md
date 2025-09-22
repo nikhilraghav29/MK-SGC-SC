@@ -3,7 +3,7 @@
 This repository contains the implementation for the paper:  
 - "Raghav, Nikhil and Gupta, Avisek, Das, Swagatam and Sahidullah, Md, *MK-SGC-SC: MULTIPLE KERNEL GUIDED SPARSE GRAPH CONSTRUCTION IN SPECTRAL CLUSTERING FOR UNSUPERVISED SPEAKER DIARIZATION*, communicated to ICASSP 2026.
 
-
+## Instructions for implementation
 ## Dependencies
 Our implementation is based on a modified version of the AMI recipe provided in the SpeechBrain toolkit.
 - Follow the installation guidelines for the SpeechBrain toolkit provided [here](https://github.com/speechbrain/speechbrain "SpeechBrain toolkit link") 

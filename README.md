@@ -17,6 +17,7 @@ For example, if you want to experiment on the AMI meeting corpus, replace the fi
 - experiment.py located at speechbrain/recipes/AMI/Diarization with experiment_ami.py located at speechbrain/recipes/AMI/Diarization
 - ecapa_tdnn.yaml located at speechbrain/recipes/AMI/Diarization/hparams with ecapa_tdnn_ami.yaml  speechbrain/recipes/AMI/Diarization/hparams
 - diarization.py located at speechbrain/speechbrain/processing with diarization_amy.py located at speechbrain/speechbrain/processing
+  
 Similarly, you can do the experiments on DIHARD-III and VoxConverse.
 
 ## License

@@ -7,11 +7,12 @@ This repository contains the implementation for the paper:
 ## Dependencies
 Install SpeechBrain version `0.5.14`.
 Follow the installation guidelines provided in the [SpeechBrain repository](https://github.com/speechbrain/speechbrain).
+
 ## Recipe 
 This repository provides scripts for the proposed MK-SGC-SC technique.  
 To run experiments on the **DIHARD-III**, **AMI**, or **VoxConverse** datasets, overwrite the following files in the SpeechBrain toolkit.
 
-For example, if you want to experiment on the AMI meeting corpus, replace the files at the following locations:
+For example, for the **AMI meeting corpus**, replace:
 - experiment.py located at speechbrain/recipes/AMI/Diarization with experiment_ami.py located at speechbrain/recipes/AMI/Diarization
 - ecapa_tdnn.yaml located at speechbrain/recipes/AMI/Diarization/hparams with ecapa_tdnn_ami.yaml  speechbrain/recipes/AMI/Diarization/hparams
 - diarization.py located at speechbrain/speechbrain/processing with diarization_amy.py located at speechbrain/speechbrain/processing

@@ -19,11 +19,6 @@ For example, for the **AMI meeting corpus**, replace the files as shown below:
 | `speechbrain/recipes/AMI/Diarization/experiment.py`      | `experiment_ami.py`                 |
 | `speechbrain/recipes/AMI/Diarization/hparams/ecapa_tdnn.yaml` | `ecapa_tdnn_ami.yaml`               |
 | `speechbrain/speechbrain/processing/diarization.py`      | `diarization_ami.py`                |
-
-For example, for the **AMI meeting corpus**, replace:
-- `speechbrain/recipes/AMI/Diarization/experiment.py` → `experiment_ami.py`
-- `speechbrain/recipes/AMI/Diarization/hparams/ecapa_tdnn.yaml` → `ecapa_tdnn_ami.yaml`  
-- `speechbrain/speechbrain/processing/diarization.py` → `diarization_ami.py`
   
 Similarly, use the corresponding files for **DIHARD-III** and **VoxConverse**.
 

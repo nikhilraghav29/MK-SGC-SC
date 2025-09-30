@@ -6,7 +6,7 @@ This repository contains the implementation for the paper:
 
 ## Dependencies
 Install SpeechBrain version `0.5.14`.
-- Follow the installation guidelines for the SpeechBrain toolkit provided [here](https://github.com/speechbrain/speechbrain "SpeechBrain toolkit link")
+Follow the installation guidelines provided in the [SpeechBrain repository](https://github.com/speechbrain/speechbrain).
 ## Recipe 
 The following three files need to be overwritten at the following locations, depending on which speech corpora you want to perform the experiments among the DIHARD-III, AMI, and VoxConverse  datasets. 
 It contains the scripts for the proposed MK-SGC-SC technique.

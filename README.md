@@ -13,9 +13,9 @@ This repository provides scripts for the proposed MK-SGC-SC technique.
 To run experiments on the **DIHARD-III**, **AMI**, or **VoxConverse** datasets, overwrite the following files in the SpeechBrain toolkit.
 
 For example, for the **AMI meeting corpus**, replace:
-- experiment.py located at speechbrain/recipes/AMI/Diarization with experiment_ami.py located at speechbrain/recipes/AMI/Diarization
-- ecapa_tdnn.yaml located at speechbrain/recipes/AMI/Diarization/hparams with ecapa_tdnn_ami.yaml  speechbrain/recipes/AMI/Diarization/hparams
-- diarization.py located at speechbrain/speechbrain/processing with diarization_amy.py located at speechbrain/speechbrain/processing
+- `speechbrain/recipes/AMI/Diarization/experiment.py` → `experiment_ami.py`
+- `speechbrain/recipes/AMI/Diarization/hparams/ecapa_tdnn.yaml` → `ecapa_tdnn_ami.yaml`  
+- `speechbrain/speechbrain/processing/diarization.py` → `diarization_ami.py`
   
 Similarly, you can do the experiments on DIHARD-III and VoxConverse.
 

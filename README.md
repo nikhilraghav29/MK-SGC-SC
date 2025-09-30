@@ -20,10 +20,13 @@ For example, for the **AMI meeting corpus**, replace:
 Similarly, use the corresponding files for **DIHARD-III** and **VoxConverse**.
 
 ## Instructions for implementation
-Our implementation is based on a modified version of the AMI recipe provided in the SpeechBrain toolkit.
-Use the following command to launch an experiment from your directory where your experiment.py is present. Consider the following as a case for launching the experiments on the AMI meeting corpus: 
-- python experiment_ami.py hparams/ecapa_tdnn_ami.yaml
-  
+## Instructions
+Our implementation is based on a modified version of the AMI recipe in SpeechBrain.  
+To launch an experiment (example: AMI meeting corpus), run the following command from the directory where your `experiment_ami.py` file is located:
+
+```bash
+python experiment_ami.py hparams/ecapa_tdnn_ami.yaml
+```  
 ## License
 This project is licensed under the MIT License. The full terms of the MIT License can be found in the LICENSE.md file at the root of this project.
 

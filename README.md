@@ -29,9 +29,6 @@ To launch an experiment (example: AMI meeting corpus), run the following command
 ```bash
 python experiment_ami.py hparams/ecapa_tdnn_ami.yaml
 ```  
-## License
-This project is licensed under the MIT License. The full terms of the MIT License can be found in the LICENSE.md file at the root of this project.
-
 
 ## License
 This project is licensed under the MIT License. The full terms of the MIT License can be found in the LICENSE.md file at the root of this project.

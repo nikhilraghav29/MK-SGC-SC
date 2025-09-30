@@ -3,11 +3,6 @@
 This repository contains the implementation for the paper:  
 - " Nikhil Raghav, Avisek Gupta, Swagatam Das, and Md Sahidullah, *MK-SGC-SC: Multiple Kernel Guided Sparse Graph Construction in Spectral Clustering for Unsupervised Speaker Diarization*, communicated to ICASSP 2026.
 
-## Instructions for implementation
-Our implementation is based on a modified version of the AMI recipe provided in the SpeechBrain toolkit.
-Use the following command to launch an experiment from your directory where your experiment.py is present. Consider the following as a case for launching the experiments on the AMI meeting corpus: 
-- python experiment_ami.py hparams/ecapa_tdnn_ami.yaml
-
 ## Dependencies
 Install speechbrain version 0.5.14
 - Follow the installation guidelines for the SpeechBrain toolkit provided [here](https://github.com/speechbrain/speechbrain "SpeechBrain toolkit link")
@@ -22,6 +17,11 @@ For example, if you want to experiment on the AMI meeting corpus, replace the fi
   
 Similarly, you can do the experiments on DIHARD-III and VoxConverse.
 
+## Instructions for implementation
+Our implementation is based on a modified version of the AMI recipe provided in the SpeechBrain toolkit.
+Use the following command to launch an experiment from your directory where your experiment.py is present. Consider the following as a case for launching the experiments on the AMI meeting corpus: 
+- python experiment_ami.py hparams/ecapa_tdnn_ami.yaml
+  
 ## License
 This project is licensed under the MIT License. The full terms of the MIT License can be found in the LICENSE.md file at the root of this project.
 

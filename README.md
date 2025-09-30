@@ -17,7 +17,7 @@ For example, for the **AMI meeting corpus**, replace:
 - `speechbrain/recipes/AMI/Diarization/hparams/ecapa_tdnn.yaml` → `ecapa_tdnn_ami.yaml`  
 - `speechbrain/speechbrain/processing/diarization.py` → `diarization_ami.py`
   
-Similarly, you can do the experiments on DIHARD-III and VoxConverse.
+Similarly, use the corresponding files for **DIHARD-III** and **VoxConverse**.
 
 ## Instructions for implementation
 Our implementation is based on a modified version of the AMI recipe provided in the SpeechBrain toolkit.

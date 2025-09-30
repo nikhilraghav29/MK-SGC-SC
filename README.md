@@ -8,8 +8,8 @@ This repository contains the implementation for the paper:
 Install SpeechBrain version `0.5.14`.
 Follow the installation guidelines provided in the [SpeechBrain repository](https://github.com/speechbrain/speechbrain).
 ## Recipe 
-The following three files need to be overwritten at the following locations, depending on which speech corpora you want to perform the experiments among the DIHARD-III, AMI, and VoxConverse  datasets. 
-It contains the scripts for the proposed MK-SGC-SC technique.
+This repository provides scripts for the proposed MK-SGC-SC technique.  
+To run experiments on the **DIHARD-III**, **AMI**, or **VoxConverse** datasets, overwrite the following files in the SpeechBrain toolkit.
 
 For example, if you want to experiment on the AMI meeting corpus, replace the files at the following locations:
 - experiment.py located at speechbrain/recipes/AMI/Diarization with experiment_ami.py located at speechbrain/recipes/AMI/Diarization

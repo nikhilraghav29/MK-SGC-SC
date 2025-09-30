@@ -5,6 +5,8 @@ This repository contains the implementation for the paper:
 
 ## Instructions for implementation
 Our implementation is based on a modified version of the AMI recipe provided in the SpeechBrain toolkit.
+Use the following command to launch an experiment from your directory where your experiment.py is present. Consider the followng as a case for launching the experiments on the AMI meeting corpus: 
+- python experiment_ami.py hparams/ecapa_tdnn_ami.yaml
 
 ## Dependencies
 Install speechbrain version 0.5.14

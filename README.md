@@ -19,7 +19,6 @@ For example, for the **AMI meeting corpus**, replace:
   
 Similarly, use the corresponding files for **DIHARD-III** and **VoxConverse**.
 
-## Instructions for implementation
 ## Instructions
 Our implementation is based on a modified version of the AMI recipe in SpeechBrain.  
 To launch an experiment (example: AMI meeting corpus), run the following command from the directory where your `experiment_ami.py` file is located:

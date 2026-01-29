@@ -1,7 +1,7 @@
 # MK-SGC-SC: Multiple Kernel Guided Sparse Graph Construction in Spectral Clustering for Unsupervised Speaker Diarization
 
 ### About
-This repository contains the implementation for the paper:  
+This repository contains the implementation for the following work:  
 - Nikhil Raghav, Avisek Gupta, Swagatam Das, and Md Sahidullah, *MK-SGC-SC: Multiple Kernel Guided Sparse Graph Construction in Spectral Clustering for Unsupervised Speaker Diarization*.
 
 ## Dependencies
